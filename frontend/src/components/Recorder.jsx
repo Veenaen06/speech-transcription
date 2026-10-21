@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 import { GoogleGenAI, Modality } from "@google/genai";
 import { Mic, Square, LoaderCircle, AudioLines } from "lucide-react";
 
-const TOKEN_URL = "http://127.0.0.1:8000/api/live-token/";
+const TOKEN_URL = `${import.meta.env.VITE_API_URL}/live-token/`;
 const MODEL = "gemini-3.5-transcribe-live";
 
 function downsampleTo16k(input, inputRate) {
