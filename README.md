@@ -6,7 +6,7 @@ The application uses React for the frontend, Django REST Framework for the backe
 
 ## 🌐 Live Demo
 
-https://speech-transcription.vercel.app/
+https://speech-transcription-weld.vercel.app/
 
 
 ## ✨ Features
@@ -331,7 +331,7 @@ The live-token endpoint expects a POST request. Opening it directly in a browser
 
 Live URL:
 
-https://speech-transcription.vercel.app/
+https://speech-transcription-weld.vercel.app/
 
 ### Backend – Render
 
